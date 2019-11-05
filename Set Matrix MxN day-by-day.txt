@@ -1,0 +1,34 @@
+# ravijoglekar
+
+Problem Statement:
+
+In an MXN matrix, there are elements either set to zero(0) or one(1).
+Every day all zeros will be set to 1 if immediate adjucent element from top, left, right or bottom is already set to 1.
+Find number of days needed to set all elements to 1.
+
+Example:
+Rows = 4, Columns = 4.
+Matrix elements:
+1 0 0 1
+1 0 0 1
+0 0 0 0
+1 0 1 0
+
+The number days needed are: 2
+
+Day 1:
+1 1 1 1
+1 1 1 1
+1 0 1 1
+1 1 1 1 
+
+Day 2:
+1 1 1 1
+1 1 1 1
+1 1 1 1
+1 1 1 1
+        
+Input of the program: 
+1. Accept the number of rows and columns from the user.
+2. accept the elements of the matrix
+3. Print/return the number of days
